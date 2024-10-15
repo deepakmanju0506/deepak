@@ -1,5 +1,3 @@
-
-
 package com.xworkz.collection;
 
 public enum Continent {
