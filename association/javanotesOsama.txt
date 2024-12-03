@@ -1,0 +1,157 @@
+Java:
+	*Java is a high level, object oriented programming language and platform widely used for build applications
+	*It was first developed by sun Microsystems in 1995 now maintained by oracle corporation 
+	*Java is designed by platform independent, which means that program write once can run on any devices or systems
+	with the help of JVM , This concept is know as WORA.
+
+JVM, JRE, JDK: 
+	*JVM (Java Virtual Machine): Runs Java bytecode on any platform.
+	*JRE (Java Runtime Environment): Provides libraries and JVM for running Java applications.
+	*JDK (Java Development Kit): Includes JRE and development tools for building Java applications.
+
+
+Variables:
+	*In java variable is a container that holds a data
+	*A variable is a memory location name for the data
+	*Types of Variables in java---> Local, Instance, Static, Parameter
+	*Local: Local variable defined within a body of a method or constructor is called a local variable
+	*Instance: Instance variable is a non-static variable and are declared in a class but outside of any method within a class body or constructor
+	*Static: Static variable is also know as class variable and are declared in a class but outside of the any method
+
+Data Type in java:
+	*In java, a data type specifices the kind of data that can be stored and manipulated within a program
+	*Java has two categories of DataTypes :  Primitive and Non-Primitive Data Type	
+	* (Data types in Java specify the size and type of values that can be stored in a variable)
+	
+	
+Methods:
+	*In java methods is a collection of statements that perform some specific task
+	*It’s a set of codes that perform a particular task
+	*syntax of method: Access_specifier returnType and methodName(){ // body}
+	
+Class: 
+		*Class is a templete or blue print for creating objects
+		*Class is a group of object
+		*A class can contain >variable >methods >Constructor >Blocks
+
+Wrapper class:
+		*Wrapper class is a class
+		*Wrapper class is used to converting a primitive data types into objects
+		*Sometimes you need to treat a primitive data types as object, So wrapper class is allows that
+			
+Arrays:
+		*Arrays in java are container that hold a fixed number of values of a single type.
+		*They are used to store multiple values in a single variable.	
+					
+java principles
+
+constructor : 
+	*In java, Constructor is a special method, that is used to initilize a object, 
+	*It has a same name as the class and does not have a return  type, Constructor is a block of code similay like a method,
+	*At the time of calling Constructor memory of object allocated in memory
+	*Constructor has a two types : Default, Parameterized
+	*Constructor cannot be abstract, static and final 
+	*We cannot overRide a constructor
+	*But we can over load a constructor
+	
+Constructor chaining:
+		*Constructor chaining in Java is a  constructor calls another constructor in the same class or in its superclass
+		*A constructor calls another constructor in the same class using this() keyword.
+		*A constructor calls a constructor in the superclass using super() keyword.
+	
+static block :
+	*In java static block is know as static initilize block
+	*Is a block of code runs only once
+	*It’s used to initialize static variables
+	*static block helps to execute without main() method the java program, 
+	it's support only JDK1.6 or previous of 1.6 now it's throw error.
+	
+class block
+static import:
+	*In java static import is allows you to access static members of class directly without qualify with class name 
+	* static import is introduced in java 5.
+	
+wild card import
+
+== and equals():
+
+	* == Operator: Compares object references. Use it to check if two references point to the same object.
+	* Checks if two references point to the same object in memory.
+	
+	* equals() Method: Compares the content of objects. Override it in your class to define logical equality based on your requirements.
+	* Checks if two objects are logically equal based on their state (content).
+
+equals method:
+	*The equals() method in Java is used to compare two objects for equality. 
+	*By default , the equals() method is provided by the object class
+	*compare the content of the object
+	
+toString method:
+	*toString() method in java is used to provide a string representation of a object.
+	*By default, toString method from object.	
+	*a class returns a string consting of class name follewed by @ and  object hashCode in hexadecimal 
+	*this not very informative, So if overriden the method to provide meaningful output.
+
+hashCode method:
+	*The hashCode() method in Java is used to generate a unique code (hash code) for an object.
+	* This code is a 32-bit signed integer that can be used for efficiently managing collections of objects
+	
+Exception----> checked , Un checked
+	*An exception in java is an event it's disrupts the normal flow of a program.
+	*it's a object represents an error and unexcepted event, During the execution of a program
+	*Exceptions are used to error handiling in java.
+	* Exception handling using try, catch and finally block to manage exception
+	* All exception are subclasses of Trowable its a java.lang package
+	
+	
+	
+try() catch() finally():	
+
+try Block:
+	*Contains code that might throw an exception.
+	*If an exception occurs, the rest of the try block is skipped, and control goes to the matching catch block.
+
+catch Block:
+	*Catches and handles the exception thrown in the try block.
+	*Multiple catch blocks can be used to handle different types of exceptions.
+
+finally Block:
+	*Always executes, regardless of whether an exception is thrown or not.
+	*Used for cleanup activities like closing resources
+	
+method overriding, method over loading
+Access specifier
+final keyword
+abstract class , Interfaces
+
+Enum:
+	* An enum is a special class 
+	*That represent group of constants(Unchangable variables, like a final variable)
+	*To create a enum, Use the enum keyword
+	*Constants should be in uppercase.
+	*Enums are prefect for where you need pre-defined set of constants.
+
+String:
+	* In Java, a String is a sequence of characters used to represent textual data. 
+	*Strings are objects that are immutable, meaning once a String object is created, its value cannot be changed. 
+	*This immutability helps ensure that string values remain consistent and secure.	
+	
+StringBuffer:
+	*StringBuffer class in java used to create mutable Strings. unlike the String class is immutable
+	*StringBuffers allows you to modify the content of the string without creating a new object.	
+	
+Collection
+ D/w List and Set:
+	* List:
+			* Maintain Insertioin order
+			*Allows duplicate elements
+			*Provides index access to elements 
+			*Impl- ArrayList, LinkedList
+	* Set:
+			* Does not maintain Insertioin order
+			* Does not allow duplicates elements
+			* Does not provide index access to elements
+			* Impl- HashSet, LinkedHashSet
+			
+			
+Lambda Expression

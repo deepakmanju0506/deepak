@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9832a37d-f9ff-4979-8ca6-affbcd3b0a92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../shop/src/com/xworkz/shop/impl/ShopIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/src/com/xworkz/shop/interfaces/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/src/com/xworkz/shop/runner/ShopRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drill/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../drill/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zoo/src/com/xworkz/zoo/dto/ZooBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zoo/src/com/xworkz/zoo/dto/ZooBooking.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2pVcyhJvvHgzqq42Y8vxus34eoN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9832a37d-f9ff-4979-8ca6-affbcd3b0a92" name="Changes" comment="" />
+      <created>1732854939808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732854939808</updated>
+    </task>
+    <servers />
+  </component>
+</project>

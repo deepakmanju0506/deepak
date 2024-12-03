@@ -1,11 +1,11 @@
 class Fruit
-{
+{    int price=250;
 	public static double fruits(String name,int quantity)
-	{
+	{double total=0;
 		if(name=="Apple")
 		{
-		  int price=250;
-		  double total=quantity*price;
+		  
+		 total=quantity*price;
 		 return total;
 		} 
 		
