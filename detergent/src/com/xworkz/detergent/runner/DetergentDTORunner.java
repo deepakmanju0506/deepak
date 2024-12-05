@@ -1,4 +1,4 @@
-package com.xworkz.detergent.Runner;
+package com.xworkz.detergent.runner;
 
 import com.xworkz.detergent.dto.DetergentDTO;
 
