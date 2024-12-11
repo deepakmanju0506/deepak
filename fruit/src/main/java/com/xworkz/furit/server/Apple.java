@@ -1,6 +1,5 @@
 package com.xworkz.furit.server;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -9,10 +8,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Enumeration;
-@WebServlet(urlPatterns = "/fruit", loadOnStartup = 1)
-public class FruitServer extends HttpServlet {
+@WebServlet (urlPatterns = "/apple",loadOnStartup = 1)
+public class Apple extends HttpServlet {
 
-    public FruitServer() {
+
+
+    public Apple() {
         System.out.println("Running no-args constructor");
     }
 
@@ -35,11 +36,22 @@ public class FruitServer extends HttpServlet {
         respWriter.println("Servlet response is working......");
 
 
+        String Type = req.getParameter("Tname");
+        String GrownIn = req.getParameter("Gname");
+        String Imported = req.getParameter("Iname");
+        String Color = req.getParameter("Cname");
+        String pricePerKg = req.getParameter("Pname");
+        System.out.println("Type:" + Type);
+        System.out.println("GrownIn:" + GrownIn);
+        System.out.println("Imported:" + Imported);
+        System.out.println("Color:" + Color);
+        System.out.println("PricePerKg:" + pricePerKg);
 
+
+        PrintWriter printWriter = resp.getWriter();
+        printWriter.println(" Apple details sent succesfully..");
 
 
 
     }
 }
-
-
